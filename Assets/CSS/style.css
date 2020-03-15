@@ -1,1 +1,10 @@
-/* style.css */
+.nav-link{
+    color: black;
+}
+
+.navbar-brand {
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+}
+
