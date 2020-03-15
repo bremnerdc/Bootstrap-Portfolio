@@ -8,3 +8,28 @@
     font-family: 'Libre Baskerville', serif;
 }
 
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    color: #4aaaa5;
+}
+
+.container {
+    background-color: white;
+}
+
+.row {
+    padding-top: 5%;
+}
+
+hr {
+    color: grey;
+    height: 5px;
+}
+
+img {
+    float: left;
+}
+
+p {
+    float: right;
+}
