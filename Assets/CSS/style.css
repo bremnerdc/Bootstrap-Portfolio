@@ -4,7 +4,7 @@
 
 .navbar-brand {
     background-color: #4aaaa5;
-    color: white;
+    color: white !important;
     font-family: 'Libre Baskerville', serif;
 }
 
@@ -18,8 +18,10 @@ h1 {
 }
 
 .row {
-    padding-top: 5%;
+    padding-top: -5%;
 }
+
+.row_2
 
 hr {
     color: grey;
@@ -28,8 +30,43 @@ hr {
 
 img {
     float: left;
+    clear: both;
 }
 
 p {
-    float: right;
+    float: none;
+    clear: both;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #4aaaa5 !important;
+}
+
+.container {
+    background-color: white;
+    width: 60%;
+    height: auto;
+    padding: 50px;
+    margin: 60px;
+    border: 15px grey;
+}
+
+body {
+    background-image: url("../IMAGES/bright_squares.png") !important;
+    
+}
+
+.img-thumbnail-1 {
+    margin-top: -70px;
+    margin-left: 20px;
+    clear: both;
+    float: left;
+    align: center;
+    height: 200px;
+    width: 200px;
+}
+
+.img {
+    height: 200px;
+    width: 200px;
 }
