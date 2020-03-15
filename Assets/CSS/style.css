@@ -36,6 +36,7 @@ img {
 p {
     float: none;
     clear: both;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
