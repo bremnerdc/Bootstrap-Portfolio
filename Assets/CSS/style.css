@@ -71,3 +71,16 @@ body {
     height: 200px;
     width: 200px;
 }
+
+footer {
+    text-align: center;
+    margin-top: 10%;
+    padding: 20px;
+    background-color: #666666;
+}
+
+.hr2 {
+    color: #4aaaa5;
+    border: 5px solid #4aaaa5;
+    margin: -45px !important;
+}
