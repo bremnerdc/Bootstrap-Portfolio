@@ -75,6 +75,7 @@ body {
 footer {
     text-align: center;
     margin-top: 10%;
+    margin-bottom: -50px;
     padding: 20px;
     background-color: #666666;
 }
@@ -83,4 +84,13 @@ footer {
     color: #4aaaa5;
     border: 5px solid #4aaaa5;
     margin: -45px !important;
+}
+
+@media screen and (max-width: 576px) {
+
+.container {
+    width: 100%;
+    align-self: center;
+    float: right
+    }   
 }
